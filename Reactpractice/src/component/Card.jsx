@@ -8,7 +8,8 @@ export function Card(props){
             <div className="pt-3">
                 <h3 className="font-semibold" >name:<span className="font-bold">{name}</span></h3>
                 <p className="font-semibold">Role:<span className="font-bold text-blue-400">{Role}</span></p>
+                <button className="border-2 bg-blue-300 border-red-950 rounded-md font-semibold">Delete</button>
             </div>
-        </div>
+        </div> 
     )
 }
